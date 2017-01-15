@@ -1,0 +1,4 @@
+[submodule "docs/fontpad"]
+	path = docs/fontpad
+	url = https://github.com/mooniak/fontpad.git
+	branch = gh-pages
