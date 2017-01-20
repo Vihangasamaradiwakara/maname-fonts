@@ -1,0 +1,125 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn CRT;
+languagesystem latn AZE;
+
+feature aalt {
+# automatic
+feature locl;
+feature sups;
+feature ordn;
+feature c2sc;
+feature ccmp;
+feature frac;
+} aalt;
+
+feature locl {
+# automatic
+script latn;
+language CAT;
+sub l periodcentered' l by periodcentered.loclCAT;
+sub L periodcentered' L by periodcentered.loclCAT;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+sub Tcedilla by Tcommaaccent;
+sub tcedilla by tcommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+sub Tcedilla by Tcommaaccent;
+sub tcedilla by tcommaaccent;
+language KAZ;
+sub i by idotaccent;
+language TAT;
+sub i by idotaccent;
+language TRK;
+sub i by idotaccent;
+language CRT;
+sub i by idotaccent;
+language AZE;
+sub i by idotaccent;
+} locl;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+} sups;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+} ordn;
+
+feature c2sc {
+# automatic
+sub A by A.sc;
+sub B by B.sc;
+sub C by C.sc;
+sub D by D.sc;
+sub E by E.sc;
+sub F by F.sc;
+sub G by G.sc;
+sub H by H.sc;
+sub I by I.sc;
+sub J by J.sc;
+sub K by K.sc;
+sub L by L.sc;
+sub M by M.sc;
+sub N by N.sc;
+sub O by O.sc;
+sub P by P.sc;
+sub Q by Q.sc;
+sub R by R.sc;
+sub S by S.sc;
+sub T by T.sc;
+sub U by U.sc;
+sub V by V.sc;
+sub W by W.sc;
+sub X by X.sc;
+sub Y by Y.sc;
+} c2sc;
+
+feature liga {
+# automatic
+sub f f l by f_f_l;
+sub f f i by f_f_i;
+sub f i by fi;
+sub f f by f_f;
+sub f l by fl;
+} liga;
+
+feature abvs {
+
+} abvs;
+
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb commaaccent dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+} ccmp;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexgrave" format="1">
+	<unicode hex="1EA6"/>
+	<advance width="844"/>
+	<outline>
+		<component base="A"/>
+		<component base="circumflexcomb" xOffset="425" yOffset="-23"/>
+		<component base="gravecomb" xOffset="429" yOffset="862"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-01-06 11:06:08 +0000</string>
+		</dict>
+	</lib>
+</glyph>

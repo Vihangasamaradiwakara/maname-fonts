@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zerowidthjoiner" format="1">
+	<unicode hex="FEFF"/>
+	<outline>
+		<contour>
+			<point x="-20" y="10" type="line"/>
+			<point x="60" y="928" type="line"/>
+			<point x="102" y="928" type="line"/>
+			<point x="22" y="10" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2016-12-26 03:45:10 +0000</string>
+		</dict>
+	</lib>
+</glyph>
