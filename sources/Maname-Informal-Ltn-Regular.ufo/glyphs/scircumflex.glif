@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scircumflex" format="1">
-	<unicode hex="015D"/>
-	<advance width="531"/>
-	<outline>
-		<component base="s"/>
-		<component base="circumflexcomb" xOffset="287" yOffset="-215"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2017-01-06 11:06:08 +0000</string>
-		</dict>
-	</lib>
+  <advance width="531"/>
+  <unicode hex="015D"/>
+  <outline>
+    <component base="s"/>
+    <component base="circumflexcomb" xOffset="287" yOffset="-215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-06 11:06:08 +0000</string>
+    </dict>
+  </lib>
 </glyph>

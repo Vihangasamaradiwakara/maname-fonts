@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omacron" format="1">
-	<unicode hex="014D"/>
-	<advance width="662"/>
-	<outline>
-		<component base="o"/>
-		<component base="macron" xOffset="353" yOffset="-182"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2017-01-08 04:19:56 +0000</string>
-		</dict>
-	</lib>
+  <advance width="662"/>
+  <unicode hex="014D"/>
+  <outline>
+    <component base="o"/>
+    <component base="macron" xOffset="339"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-23 05:09:07 +0000</string>
+    </dict>
+  </lib>
 </glyph>

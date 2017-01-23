@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinCU" format="1">
-	<advance width="831"/>
-	<outline>
-		<component base="sinMatraU.alt" xOffset="97" yOffset="13"/>
-		<component base="sinCa"/>
-		<contour>
-			<point name="_si_MaU" x="22" y="169" type="move"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2016-12-26 03:45:10 +0000</string>
-		</dict>
-	</lib>
+  <advance width="831"/>
+  <outline>
+    <component base="sinMatraU.alt" xOffset="97" yOffset="13"/>
+    <component base="sinCa"/>
+    <contour>
+      <point x="22" y="169" type="move" name="_si_MaU"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-12-26 03:45:10 +0000</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Otilde" format="1">
-	<unicode hex="00D5"/>
-	<advance width="818"/>
-	<outline>
-		<component base="O"/>
-		<component base="tilde" xOffset="409" yOffset="-1"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2017-01-06 11:06:08 +0000</string>
-		</dict>
-	</lib>
+  <advance width="818"/>
+  <unicode hex="00D5"/>
+  <outline>
+    <component base="O"/>
+    <component base="tilde" xOffset="419" yOffset="-31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-23 04:59:27 +0000</string>
+    </dict>
+  </lib>
 </glyph>

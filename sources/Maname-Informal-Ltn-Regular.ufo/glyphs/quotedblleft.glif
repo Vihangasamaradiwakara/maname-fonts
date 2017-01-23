@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblleft" format="1">
-	<unicode hex="201C"/>
-	<advance width="418"/>
-	<outline>
-		<component base="quoteleft"/>
-		<component base="quoteleft"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2017-01-06 11:06:08 +0000</string>
-		</dict>
-	</lib>
+  <advance width="600"/>
+  <unicode hex="201C"/>
+  <outline>
+    <component base="quoteleft"/>
+    <component base="quoteleft" xOffset="190" yOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-19 08:00:17 +0000</string>
+    </dict>
+  </lib>
 </glyph>

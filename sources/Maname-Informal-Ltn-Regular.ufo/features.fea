@@ -21,6 +21,16 @@ feature ccmp;
 feature frac;
 } aalt;
 
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb commaaccent dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+} ccmp;
+
 feature locl {
 # automatic
 script latn;
@@ -57,6 +67,13 @@ sub three by threesuperior;
 sub four by foursuperior;
 } sups;
 
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+
 feature ordn {
 # automatic
 sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
@@ -91,6 +108,7 @@ sub V by V.sc;
 sub W by W.sc;
 sub X by X.sc;
 sub Y by Y.sc;
+sub Z by Z.sc;
 } c2sc;
 
 feature liga {
@@ -101,25 +119,4 @@ sub f i by fi;
 sub f f by f_f;
 sub f l by fl;
 } liga;
-
-feature abvs {
-
-} abvs;
-
-feature ccmp {
-# automatic
-lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb commaaccent dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-} ccmp;
-
-feature frac {
-# automatic
-sub one slash four by onequarter;
-sub one slash two by onehalf;
-sub three slash four by threequarters;
-} frac;
 

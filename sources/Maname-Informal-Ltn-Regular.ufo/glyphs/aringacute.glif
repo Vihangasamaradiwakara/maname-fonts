@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aringacute" format="1">
-	<unicode hex="01FB"/>
-	<advance width="622"/>
-	<outline>
-		<component base="a"/>
-		<component base="ringcomb" xOffset="311" yOffset="690"/>
-		<component base="acutecomb" xOffset="311" yOffset="1749"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2017-01-06 11:06:08 +0000</string>
-		</dict>
-	</lib>
+  <advance width="622"/>
+  <unicode hex="01FB"/>
+  <outline>
+    <component base="a"/>
+    <component base="ringcomb" xOffset="311" yOffset="-170"/>
+    <component base="acutecomb" xOffset="311" yOffset="-132"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-23 05:09:45 +0000</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinSsRa" format="1">
-	<advance width="800"/>
-	<outline>
-		<component base="sinSsa"/>
-		<component base="sinRakar.short" xOffset="756" yOffset="39"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2016-12-26 03:45:10 +0000</string>
-		</dict>
-	</lib>
+  <advance width="800"/>
+  <outline>
+    <component base="sinSsa"/>
+    <component base="sinRakar.short" xOffset="756" yOffset="39"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-18 17:06:24 +0000</string>
+    </dict>
+  </lib>
 </glyph>
